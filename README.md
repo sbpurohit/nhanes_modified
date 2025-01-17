@@ -10,8 +10,9 @@ this R function can be loaded as source in R and continued to be used as the "nh
 modified nhanes to update the data URLs
 
 the use is as follows:
-library (foreign)
-#load the downloaded code as a sourcecode
-nhanes('DEMO_G',translated = FALSE)
+
+		library (foreign)
+  		source("path_to_/sourcecode-to_downloade_nhanes_data.R")
+  		nhanes('DEMO_G',translated = FALSE)
 
 
