@@ -1,4 +1,3 @@
-library(foreign)
 
 nhanes_modified <- function(nh_table, includelabels = FALSE, translated = FALSE, 
                             cleanse_numeric = FALSE, nchar = 128, adjust_timeout = TRUE) {
